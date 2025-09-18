@@ -56,6 +56,6 @@ match action:
         print(f"{name} Decided to Touch Grass\n- Emotion, +3 Energy,-2 Health)
 ```
 
-## Option Doc
+## Options Doc
 
 https://docs.google.com/document/d/1qLTiVrRwQQ6uQU-GYHDKAcJZFXSX8EIMjqJiokqDiqY/edit?tab=t.0
