@@ -31,7 +31,7 @@ cd pet-rock-simulator-ZoltanHari
 
 ### Usage Example
 
-![](Rock.gif)
+![](rock.gif)
 
 ## Path Modification  
 
