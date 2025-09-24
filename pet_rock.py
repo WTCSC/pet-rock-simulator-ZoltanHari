@@ -93,8 +93,8 @@ while True:
                     print("You Bought Some Food")
                 else:
                     print("You Don't Have Enough Money to Buy Food")
-                elif buy_food == "no":
-                    print("You Didn't Buy Any Food")
+            elif buy_food == "no":
+                print("You Didn't Buy Any Food")
             print(f"{name} Has Gone to the Store\n+ Food,-Emotion,-1 Energy,-1 Hunger")
 
         case "upupdowndownleftrightleftrightba":
