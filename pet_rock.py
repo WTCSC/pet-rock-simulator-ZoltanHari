@@ -73,6 +73,7 @@ while True:
             cleanliness += 5
             energy += 1
             health += 2
+            hunger -= 1
             print(f"{name} Has Taken A Bath\n+5 Cleanliness,+1 Energy,+2 Health,-1 Hunger")
         case "work":
             emotion_index += 1
@@ -84,11 +85,16 @@ while True:
             emotion_index += 1
             energy -= 1
             hunger -= 1
-            buy_food = input("Would You Like to Buy Food?\n Yes or No").lower()
+            buy_food = input("Would You Like to Buy Food?\n Yes or No").strip().lower()
             if buy_food == "yes":
                 if money >= FOOD_COST:
                     food += 1
                     money -= FOOD_COST
+                    print("You Bought Some Food")
+                else:
+                    print("You Don't Have Enough Money to Buy Food")
+                elif buy_food == "no":
+                    print("You Didn't Buy Any Food")
             print(f"{name} Has Gone to the Store\n+ Food,-Emotion,-1 Energy,-1 Hunger")
 
         case "upupdowndownleftrightleftrightba":
