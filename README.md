@@ -31,7 +31,7 @@ cd pet-rock-simulator-ZoltanHari
 
 ### Usage Example
 
-![](https://s1.ezgif.com/tmp/ezgif-18b5cfa490095b.gif)
+![](Rock.gif)
 
 ## Path Modification  
 
