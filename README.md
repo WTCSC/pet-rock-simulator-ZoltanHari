@@ -56,6 +56,6 @@ match action:
         print(f"{name} Decided to Touch Grass\n- Emotion, +3 Energy,-2 Health)
 ```
 
-## Flow Chart
+## Decision Tree
 
 https://docs.google.com/drawings/d/1nJ73kJCfmJgfucUXss6C60Y7Sp7FC-rKVFuOCWWh_tg/edit?usp=sharing
